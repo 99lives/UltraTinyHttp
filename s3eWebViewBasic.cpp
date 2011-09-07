@@ -29,8 +29,10 @@
 
 
 //static const char* g_URL = "http://google.com";
-//static const char* g_URL = "http://127.0.0.1:1024/index.html";
-static const char* g_URL = "file:///data/data/com.mycompany.s3ewebviewbasic/files/hello.html";
+static const char* g_URL = "http://127.0.0.1:7777/index.html";		//Default  port 7777
+
+//these are some other tests trying to load local files from file://
+//static const char* g_URL = "file:///data/data/com.mycompany.s3ewebviewbasic/files/hello.html";
 //static const char* g_URL = "file:///ram://test.html";
 
 static Button* g_ButtonModal = 0;
@@ -49,12 +51,9 @@ UltraTinyHttpd httpd;
 
 void ExampleInit()
 {
-	std::ifstream f1("hello.html", fstream::binary);
-	std::ofstream f2("ram://test.html", fstream::trunc|fstream::binary);
-	//f2 << f1.rdbuf(); 
-	//f2 << "hello";
 	
 	
+	//start the our webserver
 	httpd.start();
 	//
 	//Listen();
