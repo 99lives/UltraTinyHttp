@@ -1,0 +1,19 @@
+option strict
+
+includepath
+{
+	../ExamplesCore
+}
+
+files
+{
+	UltraTinyHttpd.cpp
+	UltraTinyHttpd.h
+}
+
+
+deployments
+{
+    splashscreen="$MARMALADE_ROOT/s3e/deploy/resources/splashscreens/"
+}
+
