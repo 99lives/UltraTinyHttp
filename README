@@ -1,0 +1,20 @@
+Marmalade Port of TinyHttp —
+
+ *  A trivial  and incomplete http implementation to enable serving of local files via marmalade
+ *  See http://tinyhttpd.sourceforge.net/ for orginal 
+ 
+ s3eWebViewBasic.mkb  - is a modified version of the marmalade example - it has depends on 
+ the other marmalade examples - so you will need to copy it your marmalde examples folder
+ 
+ UltraTinyHttpD - contains a drop in MKF for your projects
+ 
+ PROBLEM
+ =======
+ 
+ Using Android the default web browser denies conenctions to 127.0.0.1 when wifi is disbaled.
+ I havnt found a workaroudn for this yet - apparently other browsers - i.e opera
+ will connect fine although thats useless at present as the web view wil not use them :( 
+ 
+ Id really appreciate ideas about this!
+ 
+ 
