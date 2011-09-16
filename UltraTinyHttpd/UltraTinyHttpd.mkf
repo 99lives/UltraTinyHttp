@@ -2,7 +2,7 @@ option strict
 
 includepath
 {
-	../ExamplesCore
+	.
 }
 
 files
@@ -12,8 +12,5 @@ files
 }
 
 
-deployments
-{
-    splashscreen="$MARMALADE_ROOT/s3e/deploy/resources/splashscreens/"
-}
+
 

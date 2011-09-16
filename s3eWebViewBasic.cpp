@@ -66,7 +66,7 @@ void ExampleInit()
     // If it is available then enable the button.
     bool avail = (s3eWebViewAvailable() != 0);
     g_ButtonHide->m_Enabled = false;
-    g_ButtonModal->m_Enabled = avail;
+    g_ButtonModal->m_Enabled = false;
     g_ButtonShow->m_Enabled = avail;
 }
 
